@@ -1,0 +1,11 @@
+fastapi[standard]~=0.115.3
+sqlalchemy~=2.0.36
+psycopg2-binary
+asyncpg
+pyjwt
+passlib~=1.7.4
+bcrypt==4.0.1
+pydantic~=2.9.2
+python-jose
+alembic
+pytest

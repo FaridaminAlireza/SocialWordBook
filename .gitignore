@@ -1,0 +1,44 @@
+# Ignore Python bytecode
+__pycache__/
+
+# Ignore environment files
+#.env
+#.venv/
+#venv/
+#env/
+
+# Ignore configuration files (e.g., settings or secrets)
+#config.ini
+#*.json
+
+# Ignore Alembic files (optional)
+#alembic/versions/
+
+# Ignore SQLite database file (if using SQLite for local development)
+*.sqlite3
+
+# Ignore logs
+*.log
+
+# Ignore IDE files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Ignore coverage files
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+*.tox
+*.nox
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore hidden system file created by macOS
+.DS_Store
